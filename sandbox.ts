@@ -1,15 +1,41 @@
-let character = 'mario';
-let age = 20;
-let isBlackBelt = true;
+// explicit types
+let character: string;
+let age: number;
+let isLoading: boolean;
 
-// character = 20
-character = 'golzalves'
+// age = 'luigi';
+age = 33;
 
-// age = 'oshi'
-age = 30
+isLoading = true;
 
-const circ = (diameter: number) => {
-  return diameter * Math.PI;
+// arrays
+let ninjas : string[];
+ninjas = ['ww','re']
+// ninjas.push('asd')
+
+let kinjas : string[] = [];
+kinjas.push('de')
+
+console.log(kinjas);
+
+//union types
+let mixed : (string | number)[] = [];
+mixed.push(2);
+mixed.push('dsf');
+// mixed.push(true)
+
+
+let uid: string|number;
+uid = '123';
+uid = 123;
+// uid=true
+
+//object
+let ninjaTwo: {
+  name:string,
+  age: number,
+  beltColor: string
 }
 
-console.log(circ(23));
+ninjaTwo = {name:"Yoshi", age:23, beltColor:'red'};
+
