@@ -1,26 +1,19 @@
-// explicit types
-var character;
-var age;
-var isLoading;
-// age = 'luigi';
-age = 33;
-isLoading = true;
-// arrays
-var ninjas;
-ninjas = ['ww', 're'];
-// ninjas.push('asd')
-var kinjas = [];
-kinjas.push('de');
-console.log(kinjas);
-//union types
-var mixed = [];
-mixed.push(2);
-mixed.push('dsf');
-// mixed.push(true)
-var uid;
-uid = '123';
-uid = 123;
-// uid=true
-//object
-var ninjaTwo;
-ninjaTwo = { name: "Yoshi", age: 23, beltColor: 'red' };
+//-----------TypeScript Tutorial #6 - Dynamic (any) Types-----------
+// // We can store any type of value into this
+// let age: any = 25;
+// age = true;
+// console.log(age);
+// age = 'hello';
+// console.log(age);
+// age = {name: 'luigi'}
+// console.log(age);
+// // We can push any kind of value inside the array
+// let mixed: any[] = []
+// mixed.push('sd');
+// mixed.push(32);
+// mixed.push(true);
+// console.log(mixed);
+// // The values of these properties can be of any type
+// let ninja: {name: any, age: any}
+// ninja ={name: 'yoshi', age: 23}
+// console.log(ninja);
