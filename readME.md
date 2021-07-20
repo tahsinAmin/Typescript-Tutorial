@@ -41,3 +41,9 @@ age: 34
 let character: string;
 let age: number;
 let isLoading: boolean;
+
+7. to have a config file in order to seperate src files from public files, in terminal, write:
+   npx tsc --init
+   Then in thr config file, configure these commented lines:
+   "outDir": "./public",  
+    "rootDir": "./src",

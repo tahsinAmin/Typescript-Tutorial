@@ -1,3 +1,4 @@
+"use strict";
 //-----------TypeScript Tutorial #6 - Dynamic (any) Types-----------
 // // We can store any type of value into this
 // let age: any = 25;
@@ -17,3 +18,5 @@
 // let ninja: {name: any, age: any}
 // ninja ={name: 'yoshi', age: 23}
 // console.log(ninja);
+//-----------TypeScript Tutorial #7 - Better Workflow & tsconfig-----------
+console.log('test');
