@@ -28,26 +28,41 @@
 // Prettyt much about arranging the files and configuring the cnofig file of ts
 // console.log('test');
 
-// ----------TypeScript Tutorial #8 - Function Basics---------
-// function type with 'F'
-let greet: Function;
+// // ----------TypeScript Tutorial #8 - Function Basics---------
+// // function type with 'F'
+// let greet: Function;
 
-// greet='hello'
-greet = () => {
-  console.log('hello');
-}
+// // greet='hello'
+// greet = () => {
+//   console.log('hello');
+// }
 
-// Giving a question mark makes it optional when calling the function, it remains as undefned. but, if we passing a default value to it, then no need for ? mark
-// Also, write the required parameters at first and then the optional parameters later.
-const add = (a:number, b:number=10, c?:number | string):void => {
-  console.log(a+b);
-  console.log(c);
-}
+// // Giving a question mark makes it optional when calling the function, it remains as undefned. but, if we passing a default value to it, then no need for ? mark
+// // Also, write the required parameters at first and then the optional parameters later.
+// const add = (a:number, b:number=10, c?:number | string):void => {
+//   console.log(a+b);
+//   console.log(c);
+// }
 
-add(5,25);
+// add(5,25);
 
-const minus = (a:number, b:number):number => {
-  return a+b;
-}
+// const minus = (a:number, b:number):number => {
+//   return a+b;
+// }
 
-let result = minus(10,7);
+// let result = minus(10,7);
+
+// // ----------TypeScript Tutorial #9 Type Aliases---------
+// // Reduce code duplication by having type aliases
+// type StringOrNum = string | number;
+// type objWithName = { name:string, uid: string };
+
+// const logDetails = (uid: StringOrNum, item: string) => {
+//   console.log(`${item} has a uid of ${uid}`);
+// }
+// const greet = (user: objWithName) => {
+//   console.log(`${user.name} says hello`);
+// }
+// const greetAgain = (user: objWithName) => {
+//   console.log(`${user.name} says hello`);
+// }
